@@ -1,0 +1,83 @@
+{
+    "browserslist": [
+        "last 2 Chrome versions",
+        "last 2 Edge versions",
+        "last 2 Firefox versions",
+        "last 2 Opera versions",
+        "last 2 Safari versions"
+    ],
+    "connector": {
+        "name": "chrome",
+        "options": {
+            "waitFor": 1000
+        }
+    },
+    "formatters": [
+        "stylish"
+    ],
+    "hints": {
+        "amp-validator": "off",
+        "apple-touch-icons": "off",
+        "axe": "error",
+        "button-type": "error",
+        "content-type": [
+            "error",
+            {
+                ".*\\.js": "application/javascript; charset=utf-8"
+            }
+        ],
+        "disown-opener": "error",
+        "highest-available-document-mode": "error",
+        "html-checker": "off",
+        "http-cache": "off",
+        "image-optimization-cloudinary": "off",
+        "manifest-app-name": "error",
+        "manifest-exists": "off",
+        "manifest-file-extension": "error",
+        "manifest-is-valid": "error",
+        "meta-charset-utf-8": "error",
+        "meta-viewport": "error",
+        "minified-js": "error",
+        "no-bom": "error",
+        "no-broken-links": "error",
+        "no-disallowed-headers": "off",
+        "no-friendly-error-pages": "error",
+        "no-html-only-headers": "error",
+        "no-http-redirects": [
+            "error",
+            {
+                "max-html-redirects": 1
+            }
+        ],
+        "no-p3p": "error",
+        "no-protocol-relative-urls": "error",
+        "no-vulnerable-javascript-libraries": "error",
+        "sri": "off",
+        "ssllabs": "error",
+        "strict-transport-security": "off",
+        "stylesheet-limits": "error",
+        "validate-set-cookie-header": "error",
+        "x-content-type-options": "off"
+    },
+    "hintsTimeout": 120000,
+    "ignoredUrls": [
+        {
+            "domain": ".*fonts\\.googleapis\\.com/.*",
+            "hints": [
+                "*"
+            ]
+        },
+        {
+            "domain": ".*fonts\\.gstatic\\.com/.*",
+            "hints": [
+                "*"
+            ]
+        },
+        {
+            "domain": ".*github\\.io.*.ico$",
+            "hints": [
+                "content-type"
+            ]
+        }
+    ]
+}

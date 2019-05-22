@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141411;
+    color: #E6DB74;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 8vw;
+    height: 75vw;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body h1:first-child,
+body h2 {
+    margin-top: 0;
+}
+
+@media (min-aspect-ratio: 4/3) {
+
+    body {
+        font-size: 10.666vh;
+        height: 100%;
+        margin: 0 auto;
+        width: 133vh;
+    }
+
+}
+
+a {
+    color: inherit;
+}
+
+div,
+h3,
+li,
+p {
+    font-size: 50%;
+}
+
+h1 {
+    font-size: 90%;
+    letter-spacing: -0.005em;
+}
+
+h2 {
+    font-size: 80%;
+    letter-spacing: -0.02em;
+}
+
+ul {
+    margin: 0.5em 0;
+    padding: 0 0 0 0.5em;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.footnote {
+    color: #F8F8F2;
+    font-size: 30%;
+}

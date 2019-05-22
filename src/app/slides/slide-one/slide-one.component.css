@@ -1,0 +1,20 @@
+a,
+h1,
+span {
+    text-align: center;
+}
+
+a,
+span {
+    display: block;
+}
+
+span {
+    font-size: 40%;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+}

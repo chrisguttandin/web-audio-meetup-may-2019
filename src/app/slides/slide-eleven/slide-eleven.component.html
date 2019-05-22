@@ -1,0 +1,13 @@
+<h2>Example: MSTASN</h2>
+<ul>
+    <li>removing the polyfill</li>
+</ul>
+<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->// ...
+// if (typeof ctx.createMediaStreamTrackSource === 'function') {{ '{' }}
+    return ctx.createMediaStreamTrackSource(mediaStreamTrack);
+// }
+
+// const mediaStream = new MediaStream([ mediaStreamTrack ]);
+
+// return ctx.createMediaStreamSource(mediaStream);
+// ...<!-- htmlmin:ignore --></wam-prism>

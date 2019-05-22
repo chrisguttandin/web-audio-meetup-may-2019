@@ -1,0 +1,11 @@
+<h2>Example: MSTASN</h2>
+<ul>
+    <li>extending browser support check</li>
+</ul>
+<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->// ...
+function isSupported () {{ '{' }}
+    const ctx = new AudioContext();
+
+    return typeof ctx.createMediaStreamTrackSource === 'function';
+}
+// ...<!-- htmlmin:ignore --></wam-prism>
