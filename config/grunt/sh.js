@@ -36,6 +36,6 @@ module.exports = {
         cmd: 'ng test --watch false'
     },
     verify: {
-        cmd: "bundle-buddy build/web-audio-meetup-may-2019/*.js.map && grep -r build/**/*.map -e '/environments/environment.ts'; test $? -eq 1"
+        cmd: "bundle-buddy build/web-audio-meetup-may-2019/*-es2015.*.js.map && bundle-buddy build/web-audio-meetup-may-2019/*-es5.*.js.map && grep -r build/**/*.map -e '/environments/environment.ts'; test $? -eq 1"
     }
 };
