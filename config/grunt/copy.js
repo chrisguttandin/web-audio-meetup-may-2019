@@ -9,14 +9,6 @@ module.exports = {
             }
         ]
     },
-    html: {
-        files: [
-            {
-                dest: 'build/web-audio-meetup-may-2019/start.html',
-                src: 'build/web-audio-meetup-may-2019/index.html'
-            }
-        ]
-    },
     scripts: {
         files: [
             {
