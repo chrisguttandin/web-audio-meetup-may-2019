@@ -4,12 +4,7 @@
     "newProjectRoot": "projects",
     "projects": {
         "web-audio-meetup-may-2019": {
-            "prefix": "wam",
-            "projectType": "application",
-            "root": "",
-            "schematics": {},
-            "sourceRoot": "src",
-            "targets": {
+            "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "configurations": {
@@ -156,7 +151,12 @@
                         "tsConfig": "test/unit/tsconfig.json"
                     }
                 }
-            }
+            },
+            "prefix": "wam",
+            "projectType": "application",
+            "root": "",
+            "schematics": {},
+            "sourceRoot": "src"
         }
     },
     "schematics": {
