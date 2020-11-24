@@ -29,7 +29,7 @@ exports.config = {
     allScriptsTimeout: 60000,
 
     baseUrl: env.IS_SMOKE_TEST
-        ? 'https://chrisguttandin.github.io'
+        ? 'https://chrisguttandin.github.io/web-audio-meetup-may-2019'
         : `http://localhost:${projects[defaultProject].architect.serve.options.port}`,
 
     directConnect: !!env.TRAVIS,
