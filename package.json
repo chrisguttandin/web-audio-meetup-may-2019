@@ -132,6 +132,7 @@
             "jasmine-spec-reporter",
             "karma",
             "karma-chrome-launcher",
+            "karma-coverage",
             "karma-jasmine",
             "protractor",
             "rxjs",
