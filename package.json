@@ -116,12 +116,6 @@
         "webpack-bundle-analyzer": "^4.4.2"
     },
     "homepage": "https://chrisguttandin.github.io/web-audio-meetup-may-2019",
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
-            "pre-commit": "pretty-quick --config config/prettier/config.json --staged && grunt lint"
-        }
-    },
     "license": "MIT",
     "main": "src/index.html",
     "name": "web-audio-meetup-may-2019",
@@ -131,6 +125,7 @@
         "url": "https://github.com/chrisguttandin/web-audio-meetup-may-2019.git"
     },
     "scripts": {
+        "prepare": "husky install",
         "test": "grunt lint && grunt test"
     },
     "version": "1.2.19"
