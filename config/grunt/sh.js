@@ -23,7 +23,7 @@ module.exports = (grunt) => {
             cmd: `htmlhint --config config/htmlhint/document.json 'src/**/index.html' && \
                 htmlhint --config config/htmlhint/template.json 'src/app/**/*.component.html' && \
                 npx ng lint web-audio-meetup-may-2019 && \
-                npx stylelint src/**/*.css --config config/stylelint/config.json`
+                npx stylelint 'src/**/*.css' --config config/stylelint/config.json`
         },
         'lint-test': {
             cmd: 'npx ng lint web-audio-meetup-may-2019 --configuration test'
