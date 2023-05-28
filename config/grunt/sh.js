@@ -32,7 +32,11 @@ module.exports = (grunt) => {
             cmd: 'npx ng serve'
         },
         'prerender': {
-            cmd: 'npx ng run web-audio-meetup-may-2019:server:production && npx angular-prerender --preserve-index-html'
+            cmd: `npx ng run web-audio-meetup-may-2019:server:production && \
+                npx angular-prerender \
+                    --browser-target web-audio-meetup-may-2019:build \
+                    --preserve-index-html \
+                    --server-target web-audio-meetup-may-2019:server`
         },
         'preview': {
             cmd: 'npx ng serve --configuration production'
