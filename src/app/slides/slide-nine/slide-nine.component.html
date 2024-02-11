@@ -4,6 +4,12 @@
 </ul>
 <wam-prism language="javascript" ngPreserveWhitespaces
     ><!-- htmlmin:ignore --><!-- prettier-ignore -->// ...
-if (typeof ctx.createMediaStreamTrackSource === 'function') {{ '{' }} return ctx.createMediaStreamTrackSource(mediaStreamTrack); &#125;
-    const mediaStream = new MediaStream([ mediaStreamTrack ]); return ctx.createMediaStreamSource(mediaStream); // ...<!-- htmlmin:ignore --></wam-prism
+if (typeof ctx.createMediaStreamTrackSource === 'function') &lbrace;
+    return ctx.createMediaStreamTrackSource(mediaStreamTrack);
+&rbrace;
+
+const mediaStream = new MediaStream([ mediaStreamTrack ]);
+
+return ctx.createMediaStreamSource(mediaStream);
+// ...<!-- htmlmin:ignore --></wam-prism
 >
