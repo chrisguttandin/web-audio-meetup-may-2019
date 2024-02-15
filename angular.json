@@ -60,7 +60,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "web-audio-meetup-may-2019:build"
+                        "buildTarget": "web-audio-meetup-may-2019:build"
                     }
                 },
                 "lint": {
@@ -80,10 +80,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "development": {
-                            "browserTarget": "web-audio-meetup-may-2019:build:development"
+                            "buildTarget": "web-audio-meetup-may-2019:build:development"
                         },
                         "production": {
-                            "browserTarget": "web-audio-meetup-may-2019:build:production"
+                            "buildTarget": "web-audio-meetup-may-2019:build:production"
                         }
                     },
                     "defaultConfiguration": "development",
