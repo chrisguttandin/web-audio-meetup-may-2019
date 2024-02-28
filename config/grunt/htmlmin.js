@@ -2,8 +2,8 @@ module.exports = {
     default: {
         files: [
             {
-                cwd: 'build/web-audio-meetup-may-2019',
-                dest: 'build/web-audio-meetup-may-2019',
+                cwd: 'build/web-audio-meetup-may-2019/browser',
+                dest: 'build/web-audio-meetup-may-2019/browser',
                 expand: true,
                 src: ['**/*.html']
             }
