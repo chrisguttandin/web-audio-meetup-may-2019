@@ -72,7 +72,7 @@
         "@playwright/test": "^1.43.1",
         "@types/jasmine": "~5.1.4",
         "@types/prismjs": "^1.26.3",
-        "angular-prerender": "^16.0.5",
+        "angular-prerender": "^16.0.6",
         "axe-core": "^4.9.0",
         "bundle-buddy": "^0.2.2",
         "commitizen": "^4.3.0",
