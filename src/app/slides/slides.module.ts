@@ -23,7 +23,8 @@ import { SlidesRoutingModule } from './slides-routing.module';
 import { SlidesComponent } from './slides.component';
 
 @NgModule({
-    declarations: [
+    imports: [
+        CommonModule,
         PrismComponent,
         SlideEightComponent,
         SlideEighteenComponent,
@@ -39,12 +40,12 @@ import { SlidesComponent } from './slides.component';
         SlideSeventeenComponent,
         SlideSixComponent,
         SlideSixteenComponent,
+        SlidesRoutingModule,
         SlideTenComponent,
         SlideThirteenComponent,
         SlideThreeComponent,
         SlideTwelveComponent,
         SlideTwoComponent
-    ],
-    imports: [CommonModule, SlidesRoutingModule]
+    ]
 })
 export class SlidesModule {}
