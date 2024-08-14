@@ -5,7 +5,7 @@ module.exports = {
                 cwd: 'build/web-audio-meetup-may-2019/browser',
                 dest: 'build/web-audio-meetup-may-2019/browser',
                 expand: true,
-                src: ['**/*.html']
+                src: ['**/404.html']
             }
         ],
         options: {
